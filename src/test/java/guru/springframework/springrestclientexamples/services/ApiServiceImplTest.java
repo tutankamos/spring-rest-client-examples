@@ -11,16 +11,17 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
+import static org.junit.Assert.*;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ApiServiceImplTest extends TestCase {
+public class ApiServiceImplTest {
 
     @Autowired
     ApiService apiService;
 
     @Before
     public void setUp() throws Exception {
-        super.setUp();
     }
 
     @Test
